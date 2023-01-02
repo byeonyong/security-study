@@ -10,6 +10,9 @@ public class WebMvcConfig implements WebMvcConfigurer{
 
     @Override
     public void configureViewResolvers(ViewResolverRegistry registry) {
+
+        // mustache의 view resolver를 재설정할수가 있음 (mustacheViewResolver)
+        // 원래는 ".mustache" 파일을 찾지만 ".html"파일을 찾을 수 있게 변경하는거
         MustacheViewResolver resolver = new MustacheViewResolver();
 
         resolver.setCharset("UTF-8");
