@@ -14,7 +14,7 @@ spring:
     username: cos
     password: cos1234
     
-#  mustache? ????? prefix suffix? ??? ?? ??
+#  mustache 사용하면 prefix suffix 아래내용 자동으로 붙어서 생략가능
 #  mvc:
 #    view:
 #      prefix: /templates/
